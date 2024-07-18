@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/productList.css" />
+    <script src="assets/js/productList.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dessertContainer">
+        <div class="dessert">
+        <h2>Desserts</h2>
+        <div class="productList"></div> 
+      </div>
+    </div>
+      <div class="basketCart">
+        <h2> Your Cart (<span id="quantityTotal">0</span>)</h2>
+          <div id="cart"></div>
+          <div class="orderTotal">
+            <h6>Order Total: <span id="salesTotal">0</span></h6>
+            <img src="assets/img/Carbon Neutral Info.svg" alt="">
+          </div>
+
+          <button id="addBtn">Confirm Order</button>
+
+          <dialog id="modal">
+            <img src="assets/img/Vector.svg" alt="yesil-tik">
+            <h2>Order Confirmed</h2>
+            <p>We hope you enjoy your food!</p>
+            <div id="modalList">
+            </div>
+            <h6 class="orderSales">Order Total: <span id="orderSalesTotal">0</span></h6>
+            <button  id="resetBtn">Start New Order</button>
+          </dialog>
+      </div>
+   
+  </div>
+
+
+  </body>
+</html>
